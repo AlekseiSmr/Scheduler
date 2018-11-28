@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Quartz" Version="3.0.7" />
+    <PackageReference Include="Stashbox" Version="2.6.3" />
+    <PackageReference Include="Stashbox.Extensions.Dependencyinjection" Version="2.6.3" />
+    <PackageReference Include="Topshelf" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
